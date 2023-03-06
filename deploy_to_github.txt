@@ -1,0 +1,16 @@
+npm i gh-pages --save-dev
+
+in package.json
+"homepage" : "https//AbdelrahmanAbounida.github.io/ExcelModelwebView",
+
+
+git init 
+
+git remote add origin https//{username}.github.io/{repo-name}
+
+in package.json
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+npm run deploy
+
+
